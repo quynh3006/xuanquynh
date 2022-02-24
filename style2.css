@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.fidedtop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background: #17beb9;
+    color: white;
+    line-height: 40px ;
+
+}
+
+.menu-logo{
+    height: 60px;
+    position: relative;
+    background: #ededed;
+}
+
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.menu-logo nav{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.menu-logo nav a{
+    text-decoration: none ;
+    color: #000;
+    line-height: 40px;
+    margin: 0 25px;
+}
+
+.menu-logo nav a:hover{
+    color: #17beb9;
+    font-weight: bold;
+    transition: all .5s linear ;
+}
+
+.banner{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.product .heading{
+    font-size: 28px;
+    color: #17beb9;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+} 
+
+.product .list-product .product-item{
+    width: 20%;
+    margin: 20px 20px;
+    float:  left;
+}
+
+.product .list-product .product-item img{
+    max-width: 100%;
+
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(241, 130, 3);
+    height: 110px;
+    float: left;
+}
+.hinh1{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    height: 550px;
+}
+.hinh2{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.halo{
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 100px;
+    height: 40px;
+}
+.about{
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+.hinh8{
+    width: 1100px;
+}
+.contrack{
+    width: 50%;
+    float: left;
+}
+.box{
+    width:calc(50% - 100px);
+    height: 440px;
+    border: 1px solid rgb(231, 229, 229);
+    box-shadow: 1px 2px rgb(189, 186, 186);
+    text-align: center;
+    position: relative;
+    margin: 25px;
+    z-index: -1;
+    overflow: hidden;
+    float: left;
+}
+.box>img{
+    width: 100%;
+    float: left;
+}
+.box>a{
+    text-decoration: none;
+    bottom: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    width: 80%;
+    color: rgb(65, 64, 64);
+}
+.box>p{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 187, 0);
+}
+.auto{
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 100px;
+    float: left;
+}
+.logo input[type=text] {
+    color: #777;
+    background-color: #d4cece00;
+    padding: 3px;
+    border: #bebebe93 1px solid;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 16px;
+    border-radius: 100px;
+  }
+.coi{
+    float: left;
+    width: 90%;
+}
